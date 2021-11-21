@@ -93,6 +93,7 @@ nlu:
 
 - intent: bot_info
   examples: |
+    - who are you?
     - what is your name?
     - do you have a name?
     - can you tell me your name?

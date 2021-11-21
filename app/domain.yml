@@ -37,7 +37,7 @@ responses:
   - text: "My Name is PP Bhott, The Clarifier of your doubts"
 
   utter_owner:
-  - text: "I am the created by Adithya Narayan, contact him via narayanadithya1234@gmail.com"
+  - text: "I am  created by Adithya Narayan, contact him via narayanadithya1234@gmail.com"
 
   utter_anymore_info:
   - text: "Are you in need of anymore assistance?"
