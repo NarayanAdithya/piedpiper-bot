@@ -90,3 +90,58 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: bot_info
+  examples: |
+    - what is your name?
+    - do you have a name?
+    - can you tell me your name?
+    - what should i call you?
+    - tell me your name
+    - are you rasa?
+
+- intent: who_creator
+  examples: |
+    - who created you?
+    - who your daddy?
+    - Who owns you?
+    - are you my friend?
+    - who can i contact to know more?
+    - who developed you?
+    - who made you?
+  
+- intent: any_more_info
+  examples: |
+    - okay
+    - fine
+    - hmmm
+    - that's nice
+    - kay
+    - ok
+    - i see
+    - weird
+    - wait
+  
+- intent: what_is_piedpiper
+  examples: |
+    - what is the website about?
+    - what is this?
+    - how can this website help me?
+    - why should i download the apk?
+    - purpose of apk?
+    - what do you want to acheive?
+    - what is piedpiper about?
+    - what exactly is piedpiper?
+    - tell me about piedpiper?
+    - piedpiper from silicon valley?
+
+- intent: which_platforms
+  examples: |
+    - can i install the apk on my [ios](operating_system) device
+    - can I install the apk on my [android](operating_system) device
+    - Can the apk work on [miui](operating_system)?
+    - will the software work on my [redmi](device)
+    - i have a [samsung phone](device) , can i use the apk
+    - so only [android](operating_system)?
+
+    

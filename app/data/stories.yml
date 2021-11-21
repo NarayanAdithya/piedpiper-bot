@@ -28,3 +28,74 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: info path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: bot_info
+  - action: utter_botinfo
+  - intent: any_more_info
+  - action: utter_anymore_info
+  - intent: deny
+  - action: utter_goodbye
+
+- story: info path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: who_creator
+  - action: utter_owner
+  - intent: any_more_info
+  - action: utter_anymore_info
+  - intent: deny
+  - action: utter_goodbye
+
+
+- story: info path 2 with affirmation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: who_creator
+  - action: utter_owner
+  - intent: any_more_info
+  - action: utter_anymore_info
+  - intent: affirm
+  - action: utter_wdyw
+  - intent: what_is_piedpiper
+  - action: utter_piedpiper
+  - intent: any_more_info
+  - action: utter_anymore_info
+  - intent: affirm
+  - action: utter_wdyw
+
+- story: info path 2 with deny
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: who_creator
+  - action: utter_owner
+  - intent: any_more_info
+  - action: utter_anymore_info
+  - intent: deny
+  - action: utter_goodbye
+
+- story: asks about phone OS
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: which_platforms
+  - action: utter_android
+  - intent: any_more_info
+  - action: utter_anymore_info
+  - intent: deny
+  - action: utter_goodbye
+
+- story: what is piedpiper
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: what_is_piedpiper
+  - action: utter_piedpiper
+  - intent: any_more_info
+  - action: utter_anymore_info
