@@ -12,7 +12,6 @@ intents:
   - who_creator
   - any_more_info
   - what_is_piedpiper
-  - which_platforms
 
 responses:
   utter_greet:
@@ -51,10 +50,6 @@ responses:
   - text: "Anything else I can do for you?"
   - text: "Anymore assistance?"
 
-  utter_android:
-  - text: "As of now we only serve on android"
-  - text: "We only run on android right now"
-  - text: "We are definitely planning on expanding our market , but it will take time, so for now only android"
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

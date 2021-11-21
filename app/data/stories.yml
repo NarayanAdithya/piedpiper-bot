@@ -80,22 +80,4 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-- story: asks about phone OS
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: which_platforms
-  - action: utter_android
-  - intent: any_more_info
-  - action: utter_anymore_info
-  - intent: deny
-  - action: utter_goodbye
 
-- story: what is piedpiper
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: what_is_piedpiper
-  - action: utter_piedpiper
-  - intent: any_more_info
-  - action: utter_anymore_info

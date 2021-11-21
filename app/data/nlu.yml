@@ -135,13 +135,5 @@ nlu:
     - tell me about piedpiper?
     - piedpiper from silicon valley?
 
-- intent: which_platforms
-  examples: |
-    - can i install the apk on my [ios](operating_system) device
-    - can I install the apk on my [android](operating_system) device
-    - Can the apk work on [miui](operating_system)?
-    - will the software work on my [redmi](device)
-    - i have a [samsung phone](device) , can i use the apk
-    - so only [android](operating_system)?
 
     
